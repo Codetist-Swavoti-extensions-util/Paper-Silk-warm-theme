@@ -1,0 +1,42 @@
+{
+  "name": "Paper Silk",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F5F5F0",
+    "editor.foreground": "#383A42",
+    "editor.lineHighlightBackground": "#EAEAE4",
+    "editorCursor.foreground": "#E45649",
+    
+    "sideBar.background": "#EAEAE4",
+    "sideBar.foreground": "#5C5F66",
+    "sideBar.border": "#DCDCD6",
+    
+    "activityBar.background": "#DCDCD6",
+    "activityBar.foreground": "#383A42",
+    
+    "tab.activeBackground": "#F5F5F0",
+    "tab.inactiveBackground": "#EAEAE4",
+    "tab.activeBorderTop": "#E45649"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage", "modifier"],
+      "settings": {
+        "foreground": "#A626A4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.template"],
+      "settings": {
+        "foreground": "#50A14F"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#4078F2"
+      }
+    }
+  ]
+}
